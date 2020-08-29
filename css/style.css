@@ -1,0 +1,232 @@
+@charset 'utf-8';
+ 
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size: 12px;
+    color:#6f6f6f;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+p{
+    /* font-size:12px; */
+    color: #6f6f6f;
+}
+
+/* 기본셋 */
+
+.wrap{
+    width:940px;
+    position: relative;
+    margin: 0 auto;
+}
+header .subtitle{
+    position: absolute;
+    top:0;
+    left:0;
+}
+header .subtitle div {
+    float: left;
+}
+header .subtitle:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.subtitle div:last-child {
+    margin-top: 12px;
+    margin-left: 15px;
+}
+header .login {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+header .login li {
+    float: left;
+    margin-right: 25px;
+}
+header .login li:last-child {
+    margin-right: 0px;
+}
+header h1 {
+    text-align: center;
+    padding-top:55px;
+}
+header .gnb li{
+    margin-top: 10px;
+    margin-right: 35px;
+    margin-left:40px;
+    margin-bottom: 10px;
+    float: left;
+}
+.gnb li:last-child {
+    margin-right:0;
+}
+header ul:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+/*  */
+
+.mainbn {
+    width: 100%;
+    height: 480px;
+    background-image:url("../images/mainbn.jpg") ;
+    background-position: center;
+}
+/* 
+content:after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.container1{
+    margin-top :30px;
+}
+
+.franchise {
+    width: 205px;
+}
+.franchise h3{
+    margin-bottom: 20px;
+    /* 적기 */
+}
+.mall {
+    width: 445px;
+    margin-right:35px;
+}
+.mall>p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item {
+    width: 140px;
+    height: 120px;
+    text-align: center;
+    background-image:url(../images/bg_bar.png);
+    background-repeat: no-repeat;
+    float:left;
+    /* position: relative; */
+}
+.mall:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.item:first-child {
+    background-image:none;
+}
+.container1 .info{
+    float: left;
+    margin-right:35px;
+}
+.container1 .info:last-child{
+    margin-right:0;
+}
+.container1:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.store {
+    width: 205px;
+}
+.store p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.card {
+    float: left;
+    width: 240px;
+    height: 213px;
+    margin-top: 30px;
+}
+.subbn:after {
+    display: block;
+    content: "";
+    clear: both; 
+}
+
+.card:nth-child(2){
+    width: 459px;
+    height: 213px;
+} 
+/*  */
+
+.affordance {
+    width: 195px;
+    margin-right: 45px;
+    float: left;
+    margin-top: 30px;
+}
+.container2:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.affordance h3 {
+    margin-bottom: 12px;
+}
+.affordance div {
+    float:left;
+}
+.affordance:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.affordance:last-child {
+    margin-right: 0px;
+}
+.affordance:nth-child(3) ul a{
+    display: inline-block;  /* a는 inline요소니까 블럭준다 */
+    width:144px;
+    white-space: nowrap;    /* 줄바꿈안되도록-위에 */
+    overflow: hidden;       /* 넘치면 보여주지말고 숨겨라 */
+    text-overflow: ellipsis;/* 문자에 대해서-넘치면 말줄임표해라 */
+}
+.affordance:nth-child(3){
+    width:220px;
+}
+.affordance:nth-child(3) span{
+    float: right;
+}
+/* .affordance:nth-child(3) li:after{
+    display: block;
+    content: "";
+    clear: both;
+} */
+
+.affordance:last-child div {
+    background-image:url(../images/bg_bar.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+.affordance:last-child div:first-child {
+    background-image: none;
+    padding-left: 0px;
+}
+.affordance:last-child div:last-child {
+    padding-right: 0px;
+}

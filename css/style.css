@@ -1,5 +1,5 @@
 @charset 'utf-8';
- 
+
 *{
     margin:0;
     padding:0;
@@ -86,7 +86,7 @@ header ul:after {
     background-image:url("../images/mainbn.jpg") ;
     background-position: center;
 }
-/* 
+/*
 content:after {
     content: "";
     display: block;
@@ -142,6 +142,9 @@ content:after {
     content: "";
     clear: both;
 }
+.franchise  a img {
+    margin-left:40px;
+}
 
 .store {
     width: 205px;
@@ -161,13 +164,13 @@ content:after {
 .subbn:after {
     display: block;
     content: "";
-    clear: both; 
+    clear: both;
 }
 
 .card:nth-child(2){
     width: 459px;
     height: 213px;
-} 
+}
 /*  */
 
 .affordance {
@@ -175,6 +178,12 @@ content:after {
     margin-right: 45px;
     float: left;
     margin-top: 30px;
+}
+.container2 {
+    padding-bottom: 45px;
+}
+.click img{
+    vertical-align: middle;
 }
 .container2:after {
     display: block;
@@ -203,7 +212,7 @@ content:after {
     text-overflow: ellipsis;/* 문자에 대해서-넘치면 말줄임표해라 */
 }
 .affordance:nth-child(3){
-    width:220px;
+    width:195px;
 }
 .affordance:nth-child(3) span{
     float: right;
@@ -229,4 +238,86 @@ content:after {
 }
 .affordance:last-child div:last-child {
     padding-right: 0px;
+}
+
+
+.container3 {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top:35px;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: #b5121b;
+}
+.sns {
+    padding-bottom: 25px;
+    display: inline-block
+}
+.container3 li {
+    float: left;
+    margin-right: 30px;
+}
+.container3 li:last-child{
+    margin-right: 0;
+}
+.container3 li div{
+    float: left;
+}
+.container3 li div:first-child{
+    padding-right: 15px;
+}
+.container3 li:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.container3 ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container3 h3 img {
+    margin-right: 10px;
+}
+.container3 p {
+    color: #6f6f6f;
+    width: 140px;
+}
+.container3 .blue {
+    color: #08f;
+}
+.footer {
+    background-image: url(../images/bg_pat.png);
+    background-repeat: repeat;
+}
+.footer ul {
+    margin-bottom: 40px;
+}
+.footer li {
+    margin-top: 20px;
+    font-style: bold;
+    font-size: 15px;
+    color: white;
+    float: left;
+}
+.footer li:after{
+    content: '|';
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer ul:after{
+    display: block;
+    clear: both;
+    content: "";
+    }
+address p{
+    color:rgb(255,255,255,0.5);
+    text-decoration: none;
+    font-style: normal;
+}
+address p:last-child {
+    padding-bottom: 30px;
 }
